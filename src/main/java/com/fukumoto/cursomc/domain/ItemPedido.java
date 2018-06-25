@@ -37,6 +37,7 @@ public class ItemPedido implements Serializable{
 		return id.getPedido();
 	}
 	
+	@JsonIgnore
 	public Produto getProduto() {
 		return id.getProduto();
 	}
